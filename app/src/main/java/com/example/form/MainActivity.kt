@@ -26,8 +26,7 @@ private  lateinit var binding : ActivityMainBinding
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val countries = arrayOf("Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "España",
-            "Estados Unidos", "Mexico", "Panama", "Peru", "Uruguay")
+        val countries = arrayOf("Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "España", "Mexico", "Panama", "Peru", "Uruguay")
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item,
             countries)
 
